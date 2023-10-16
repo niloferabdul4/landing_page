@@ -1,0 +1,27 @@
+.details_container{
+   display: flex;
+   padding: 2em ;
+    
+}
+.details_container>h2{
+    text-align: justify;
+}
+
+.wrapper{
+   
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+
+.image_large{
+    max-width: 100%;
+    margin:1em 0em;
+}
+
+@media only screen and (min-width:821px)
+{
+    .details_container{
+        padding: 2em 8em;
+    }
+}

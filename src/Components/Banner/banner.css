@@ -1,0 +1,42 @@
+.banner_container{
+    width: 100%; 
+    
+}
+.banner_wrapper{
+    width:100%; 
+    padding: 1.2em;
+   
+}
+
+
+.banner_text{    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.3em;
+  color:#316FF6;
+  
+}
+.banner_title{
+    margin-bottom: 0.1em;
+    font-weight: 1000;
+    font-family: var(--title-font);
+    color:linear-gradient(#35055a ,yellow,orange);
+    
+}
+
+@media only screen and (min-width:821px)
+{
+
+    .banner_text{
+        margin-top:0.5em;
+        
+    }
+
+    .banner_title{
+        font-size: 6rem;
+    }
+
+
+}
